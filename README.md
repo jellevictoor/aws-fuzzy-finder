@@ -43,7 +43,7 @@ export AWS_FUZZ_PRIVATE_IP='true' # Delete this one if you want to use public IP
 ```
 Remeber that every change to `~/.bashrc` requires you to re-load it: `source ~/.bashrc` or restart terminal.
 
-`AWS_FUZZ_SSH_COMMAND_TEMPLATE` - set this env var if you want to customize the ssh command , defaults to `ssh {key} {user}{host}`
+`AWS_FUZZ_SSH_COMMAND_TEMPLATE` - set this env var if you want to customize the ssh command , defaults to `ssh -i {key} {user}@{host}`
 
 ## Usage
 
